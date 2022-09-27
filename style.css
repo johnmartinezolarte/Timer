@@ -10,39 +10,85 @@ body{
 }
 .content{
     border: solid 3px black;
+    border-radius: 10px;
     background-color:lightsalmon;
-    width: 60%;
-    height: 80%;
+    width: 50%;
+    height: 70%;
     margin: 4% auto;
 }
 .title{
-    border: solid 1px black;
-    text-align: center;
     font-size: 40px;
     font-weight: 700;
-    height: 10%;
+    margin-top: 1%;
+    text-align: center;
 }
 .container{
-    border: solid 1px black;
-    width: 100%;
-    height: 90%;
     display: flex;
 }
 .container_left{
-    border: solid 1px black;
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
-    height: 100%;
+}
+.text_time{
+    font-weight: 700;
+    margin-top: 10%;
+}
+#time{
+    border-radius: 5px;
+    margin-top: 5%;
+    background-color: springgreen;
+    border: solid 1px black;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 25px;
+    width: 30%;
+    height: 43px;
+    text-align: center;
+}
+button{
+    border: solid 2px black;
+    border-radius: 7px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    height: 35px;
+}
+.start{
+    background-color: slateblue;
+    color: white;
+    font-size: 22px;
+    margin-top: 12%;
+    width: 40%;
+}
+.restart{
+    background-color:crimson;
+    color: white;
+    font-size: 18px;
+    margin: 6%;
+    width: 35%;
 }
 .container_right{
-    border: solid 1px black;
     width: 100%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
 }
 .hourglass{
-    height: 100px; /*arreglar*/
+    width: 18%;
 }
-
+.display_time{
+    background-color:skyblue;
+    border: solid 2px black;
+    border-radius: 7px;
+    font-size: 25px;
+    font-weight: 700;
+    width: 43%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
